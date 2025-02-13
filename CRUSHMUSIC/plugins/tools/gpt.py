@@ -39,7 +39,7 @@ async def gpt_handler(client: Client, message: Message):
     except Exception as e:
         await message.reply_text(f"An unexpected error occurred: {e}")
 
-@app.on_message(filters.command(["chatgpt", "ai", "ask", "Master"], prefixes=["+", ".", "/", "-", "?", "$", "#", "&"]))
+@app.on_message(filters.command(["chatgpt", "ai", "ask", "main"], prefixes=["+", ".", "/", "-", "?", "$", "#", "&"]))
 async def chat_gpt(client: Client, message: Message):
     try:
         await client.send_chat_action(message.chat.id, ChatAction.TYPING)
