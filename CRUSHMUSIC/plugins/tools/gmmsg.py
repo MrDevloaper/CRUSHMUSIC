@@ -21,10 +21,10 @@ def goodnight_command_handler(_, message):
 
 def get_random_video():
     videos = [
-        "https://envs.sh/6nE.mp4", # video 1
-        "https://envs.sh/Vn2.mp4", # video 2
-        "https://envs.sh/Vnh.mp4", # video 3
-        "https://envs.sh/VnQ.mp4", # video 4
+        "https://envs.sh/EIH.mp4", # video 1
+        "https://envs.sh/EIH.mp4", # video 2
+        "https://envs.sh/EIH.mp4", # video 3
+        "https://envs.sh/EIH.mp4", # video 4
     ]
     return random.choice(videos)
 
