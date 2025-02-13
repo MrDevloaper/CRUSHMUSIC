@@ -35,7 +35,7 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module(" CRUSHMUSIC.plugins" + all_module)
+        importlib.import_module("CRUSHMUSIC.plugins" + all_module)
     LOGGER(" CRUSHMUSIC.plugins").info("CRUSH's ᴍᴏᴅᴜʟᴇs ʟᴏᴀᴅᴇᴅ...")
     await userbot.start()
     await PRASHANT.start()
