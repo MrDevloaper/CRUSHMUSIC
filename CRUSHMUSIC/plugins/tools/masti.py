@@ -5,14 +5,14 @@ from  CRUSHMUSIC import app
 from config import SUPPORT_CHAT
 
 BUTTON = [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Crush_Forever_Support")]]
-HOT = "https://envs.sh/Vn4.mp4"
-HORNY = "https://graph.org/file/eaa834a1cbfad29bd1fe4.mp4"
+HOT = "https://envs.sh/EIH.mp4"
+HORNY = "https://envs.sh/EIH.mp4"
 SEMXY = "https://graph.org/file/58da22eb737af2f8963e6.mp4"
-LESBIAN = "https://graph.org/file/ff258085cf31f5385db8a.mp4"
-GAY = "https://graph.org/file/850290f1f974c5421ce54.mp4"
+LESBIAN = "https://envs.sh/EIH.mp4"
+GAY = "https://envs.sh/EIH.mp4"
 BIGBALL = "https://i.gifer.com/8ZUg.gif"
 LANGD = "https://telegra.ph/file/423414459345bf18310f5.gif"
-CUTIE = "https://graph.org/file/24375c6e54609c0e4621c.mp4"
+CUTIE = "https://envs.sh/EIH.mp4"
 
 ####### masti
 ########  CUTE
