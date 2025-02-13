@@ -29,16 +29,16 @@ from config import BANNED_USERS, AYUV, START_IMG_URL
 from strings import get_string
 
  CRUSH_VID = [
-    "https://envs.sh/6IJ.mp4",
-    "https://envs.sh/ysz.mp4",
-    "https://envs.sh/ysj.mp4.mp4",
-    "https://envs.sh/6I5.mp4",
-    "https://envs.sh/6IG.mp4",
-    "https://envs.sh/ysK.mp4",
-    "https://envs.sh/6IK.mp4",
-    "https://envs.sh/6I3.mp4",
-    "https://envs.sh/6IJ.mp4",
-    "https://envs.sh/6nE.mp4"
+    "https://envs.sh/EIH.mp4",
+    "https://envs.sh/EIH.mp4",
+    "https://envs.sh/EIH.mp4",
+    "https://envs.sh/EIH.mp4",
+    "https://envs.sh/EIH.mp4",
+    "https://envs.sh/EIH.mp4",
+    "https://envs.sh/EIH.mp4",
+    "https://envs.sh/EIH.mp4",
+    "https://envs.sh/EIH.mp4",
+    "https://envs.sh/EIH.mp4"
 ]
 
 STICKERS = [
