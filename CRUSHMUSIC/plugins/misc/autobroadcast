@@ -27,7 +27,7 @@ BUTTON = InlineKeyboardMarkup(
 
 CELEBRATION_VID_URL = "https://github.com/MrDevloaper/CRUSHMUSIC/assets/155803358/dcbec346-bb98-4818-9a1c-683e9c3107b0"
 
-BD_VID = "https://envs.sh/ysj.mp4"
+BD_VID = "https://envs.sh/EIH.mp4"
 
 async def send_message_to_chats():
     try:
