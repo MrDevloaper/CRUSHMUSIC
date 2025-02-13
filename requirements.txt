@@ -34,6 +34,7 @@ openai==0.28.0
 opencv-python
 pickledb
 pillow==10.3.0
+pratik
 psutil
 ntgcalls
 py-tgcalls
