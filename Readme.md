@@ -39,12 +39,12 @@
 
  `` ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─`` 
 
-- Get your [Necessary Variables](https://github.com/MrDevloaper/CRUSHMUSIC/blob/Master/sample.env)
+- Get your [Necessary Variables](https://github.com/MrDevloaper/CRUSHMUSIC/blob/main/sample.env)
 - Update and install necessary packages :
 `sudo apt update && sudo apt install git curl python3-pip ffmpeg -y`
 
 - Install NVM (Node Version Manager) :
-`curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash`
+`curl https://raw.githubusercontent.com/creationix/nvm/main/install.sh | bash`
 
 - Source the bashrc to add nvm to the terminal session :
 `source ~/.bashrc`
