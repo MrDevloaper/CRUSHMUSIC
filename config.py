@@ -12,8 +12,8 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Forever_Crush")
-BOT_USERNAME = getenv("BOT_USERNAME", "lost_in_tunebot")
-BOT_NAME = getenv("BOT_NAME", "✨ℓσѕт_ιη_тυηє🎼")
+BOT_USERNAME = getenv("BOT_USERNAME", "Softwaretestingsss_bot")
+BOT_NAME = getenv("BOT_NAME", "Software")
 ASSUSERNAME = getenv("ASSUSERNAME", None)
 EVALOP = list(map(int, getenv("EVALOP", "7019897963").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -82,13 +82,13 @@ autoclean = []
 confirmer = {}
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/ysz.mp4"
+    "START_IMG_URL", "https://envs.sh/VTf.jpg"
 )
 PING_VID_URL = getenv(
-    "PING_VID_URL", "https://envs.sh/ysj.mp4"
+    "PING_VID_URL", "https://envs.sh/EIT.mp4"
 )
 PLAYLIST_IMG_URL = "https://envs.sh/yH_.jpg"
-STATS_VID_URL = "https://envs.sh/ysK.mp4"
+STATS_VID_URL = "https://envs.sh/EIT.mp4"
 TELEGRAM_AUDIO_URL = "https://envs.sh/ygD.jpg"
 TELEGRAM_VIDEO_URL = "https://envs.sh/yH-.jpg"
 STREAM_IMG_URL = "https://envs.sh/ygB.jpg"
