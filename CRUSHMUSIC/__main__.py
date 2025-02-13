@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await PRASHANT.start()
     try:
-        await PRASHANT.stream_call("https://envs.sh/ysj.mp4")
+        await PRASHANT.stream_call("https://envs.sh/EIA.mp4")
     except NoActiveGroupCall:
         LOGGER(" CRUSHMUSIC").error(
             "ᴘʟᴇᴀsᴇ ᴛᴜʀɴ ᴏɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ᴏғ ʏᴏᴜʀ ʟᴏɢ ɢʀᴏᴜᴘ\ᴄʜᴀɴɴᴇʟ.\n\nCRUSH ʙᴏᴛ sᴛᴏᴘᴘᴇᴅ..."
