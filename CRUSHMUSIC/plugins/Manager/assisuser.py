@@ -1,11 +1,19 @@
 import asyncio
+import sys
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import ChatJoinRequest
-from  CRUSHMUSIC import app
-from  CRUSHMUSIC.misc import SUDOERS
-from  CRUSHMUSIC.utils.database import get_assistant
-from  CRUSHMUSIC.utils.prashants_ban import admin_filter
+from CRUSHMUSIC import app
+from CRUSHMUSIC.misc import SUDOERS
+from CRUSHMUSIC.utils.database import get_assistant
+
+# Fix import issue for prashants_ban
+try:
+    from CRUSHMUSIC.utils.prashants_ban import admin_filter
+except ModuleNotFoundError as e:
+    print(f"Module Import Error: {e}")
+    sys.path.append('/app/CRUSHMUSIC/utils')
+    from prashants_ban import admin_filter
 
 async def join_userbot(app, chat_id, chat_username=None):
     userbot = await get_assistant(chat_id)
@@ -34,14 +42,12 @@ async def join_userbot(app, chat_id, chat_username=None):
         except Exception as e2:
             return f"Error: {str(e2)}"
 
-
 @app.on_chat_join_request()
 async def approve_join_request(client, chat_join_request: ChatJoinRequest):
     userbot = await get_assistant(chat_join_request.chat.id)
     if chat_join_request.from_user.id == userbot.id:
         await client.approve_chat_join_request(chat_join_request.chat.id, userbot.id)
         await client.send_message(chat_join_request.chat.id, "**✅ Assistant has been approved and joined the chat.**")
-
 
 @app.on_message(
     filters.command(["userbotjoin", "assistantjoin"], prefixes=[".", "/"])
@@ -63,7 +69,6 @@ async def join_group(app, message):
 
     await done.edit_text(response)
 
-
 @app.on_message(
     filters.command("userbotleave", prefixes=[".", "/"]) & filters.group & admin_filter
 )
@@ -76,7 +81,6 @@ async def leave_one(app, message):
         )
     except Exception as e:
         await message.reply(f"Error: {str(e)}")
-
 
 @app.on_message(filters.command(["leaveall"], prefixes=["."]) & SUDOERS)
 async def leave_all(app, message):
